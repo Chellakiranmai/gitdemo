@@ -1,1 +1,81 @@
-Hello world!
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git add read.md
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git commit -m "added new one"
+[master d3e208c] added new one
+ 2 files changed, 4 insertions(+)
+ create mode 100644 data.txt.txt
+ create mode 100644 read.md
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Chellakiranmai/gitdemo.git'
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 385 bytes | 385.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Chellakiranmai/gitdemo.git
+   5e15147..d3e208c  master -> master
+branch 'master' set up to track 'origin/master'.
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git clone https://github.com/Chellakiranmai/gitdemo.git
+Cloning into 'gitdemo'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 8 (delta 1), reused 7 (delta 0), pack-reused 0
+Receiving objects: 100% (8/8), done.
+Resolving deltas: 100% (1/1), done.
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/kiran/OneDrive/Desktop/vired/gitdemo/.git/
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ git pull https://github.com/Chellakiranmai/gitdemo.git
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 658 bytes | 94.00 KiB/s, done.
+From https://github.com/Chellakiranmai/gitdemo
+ * branch            HEAD       -> FETCH_HEAD
+Updating d3e208c..5d51e06
+Fast-forward
+ read.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ ls -la
+total 19
+drwxr-xr-x 1 kiran 197609  0 Feb 15 03:53 ./
+drwxr-xr-x 1 kiran 197609  0 Feb 14 03:52 ../
+drwxr-xr-x 1 kiran 197609  0 Feb 15 03:53 .git/
+-rw-r--r-- 1 kiran 197609 12 Feb 15 02:52 data.txt
+-rw-r--r-- 1 kiran 197609 32 Feb 14 05:17 data.txt.txt
+drwxr-xr-x 1 kiran 197609  0 Feb 15 03:51 gitdemo/
+-rw-r--r-- 1 kiran 197609 23 Feb 15 03:53 read.md
+-rw-r--r-- 1 kiran 197609  0 Feb 15 03:29 readme.txt
+-rw-r--r-- 1 kiran 197609  0 Feb 14 04:36 style.css.txt
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ cat read.md
+hi world
+how are you
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ ^C
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$ ^C
+
+kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
+$
