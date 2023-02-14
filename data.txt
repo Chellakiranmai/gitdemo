@@ -14,7 +14,7 @@ error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/Chellakiranmai/gitdemo.git'
 
 kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
-$ git push -u origin master
+$ git push -u origin master     
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 4 threads
@@ -54,7 +54,7 @@ Fast-forward
  1 file changed, 1 insertion(+)
 
 kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
-$ ls -la
+$ ls -la  (to check the changes history)
 total 19
 drwxr-xr-x 1 kiran 197609  0 Feb 15 03:53 ./
 drwxr-xr-x 1 kiran 197609  0 Feb 14 03:52 ../
@@ -67,7 +67,7 @@ drwxr-xr-x 1 kiran 197609  0 Feb 15 03:51 gitdemo/
 -rw-r--r-- 1 kiran 197609  0 Feb 14 04:36 style.css.txt
 
 kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
-$ cat read.md
+$ cat read.md  ( To check updtaed content)
 hi world
 how are you
 
