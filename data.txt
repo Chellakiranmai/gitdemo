@@ -1,3 +1,6 @@
+$ touch read.md (creates one file)
+
+
 kiran@kiranmai MINGW64 ~/OneDrive/Desktop/vired/gitdemo (master)
 $ git add read.md
 
